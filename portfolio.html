@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="description" content="web design, affordable web design, professional website">
+	<meta name="author" content="nagendra thakur sharma">
+	<title>PORTFOLIO</title>
+	<link rel="stylesheet"  href="./css/index1.css">
+</head>
+<!-- background  color white smoke -->
+<body style="background-color: #f4f4f4">
+	<header>
+		<div class="container">
+			<div >
+				<!-- page name -->
+				<h1 id="page">Portfolio</h1>
+			</div>
+			<!-- navitagion bar -->
+			<nav>
+				<ul>
+				<li class="current"><a href="portfolio.html">HOME</a> </li>
+				<li><a href="CV.html">CV</a> </li>
+				<li><a href="blog.html">BLOG</a> </li>
+				<li><a href="research.html">RESEARCH</a> </li>
+				<li><a href="contact.html">CONTACT</a> </li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<!-- section id name background -->
+	<section id="background">
+		<div class="container" style="text-align: center; margin-top: 10%" >
+			<h1>Hello, I am Nagendra<br>I am a programmer and a webdesigner</h1>
+		</div>
+	</section>
+	<!-- footer -->
+	<footer style="padding: 20px; margin-top:15%; text-align:center; background-color: #e8491d">
+			<h3 id="this">NAGENDRA THAKUR SHARMA ,COPYRIGHT &COPY; 2020</h3>
+			
+			<a href="https:/facebook.com/"><img src="./images/fb.png" width="50" height="50"></a>
+			<a href="https:/instragram.com/"><img src="./images/insta.png" width="50" height="50"></a>
+			<a href="https:/twitter.com/"><img src="./images/twitter.png" width="50" height="50"></a>
+	</footer>
+
+</body>
+<!-- to dynamically change the content in the site -->
+<script>
+	setInterval(
+	function () {
+	var randomColor = Math.floor(Math.random()*16777215).toString(16);
+	document.getElementById("page").style.background = "#"+randomColor;},1000);
+	</script>
+	<script>
+</script>
+
+</html>
